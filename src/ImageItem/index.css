@@ -1,0 +1,22 @@
+.thumbnail-image {
+  height: 90px;
+  width: 90px;
+  margin: 0px;
+}
+.image-button {
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
+.image-item {
+  margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .thumbnail-image {
+    height: 60px;
+    width: 60px;
+  }
+}
